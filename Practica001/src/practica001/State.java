@@ -29,6 +29,7 @@ public class State {
                 (lobo == Position.DERECHA)&&
                 (granjero == Position.IZQUIERDA))
             return false;
+        
             //terminar toda la lista de estados invalidos
         return true;
     }
